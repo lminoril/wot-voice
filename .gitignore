@@ -1,0 +1,20 @@
+# Модель распознавания весит 87 МБ — качается установщиком, в репозитории ей не место
+model/
+model.zip
+
+# Журналы и результаты калибровки
+app.log
+app.log.old
+calibrate.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Мусор редакторов
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

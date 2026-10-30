@@ -1,0 +1,28 @@
+{
+  "mode": "grammar",
+  "game_exe": "E:\\World_of_Tanks_EU\\WorldOfTanks.exe",
+  "process_name": "WorldOfTanks.exe",
+  "cooldown_seconds": 10,
+  "threshold": 88.0,
+  "model_dir": "model\\vosk-model-small-ru-0.22",
+  "sample_rate": 16000,
+  "device": null,
+  "beep": true,
+  "phrases": [
+    {
+      "name": "Йухан",
+      "grammar": ["юхан"],
+      "variants": ["юхан", "йухан", "ю хан", "йу хан", "юхань"]
+    },
+    {
+      "name": "Слет Парика",
+      "grammar": ["след парика"],
+      "variants": ["след парика", "слет парика", "слёт парика", "след парик", "слет парик"]
+    },
+    {
+      "name": "Витя-кислый",
+      "grammar": ["ведь кислый"],
+      "variants": ["ведь кислый", "витя кислый", "витя-кислый", "витя скислый", "ведь кисло"]
+    }
+  ]
+}
